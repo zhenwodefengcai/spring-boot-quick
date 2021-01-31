@@ -22,6 +22,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>6.0.6</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -36,6 +37,37 @@
             <artifactId>sqljdbc4</artifactId>
             <version>4.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-test</artifactId>
+            <!--<version>2.1.6.RELEASE</version>-->
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+           <!-- <version>5.3.3</version>-->
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>....junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.8</version>
+        </dependency>
+
+
     </dependencies>
 
 
